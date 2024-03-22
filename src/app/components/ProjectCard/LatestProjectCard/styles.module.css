@@ -1,0 +1,46 @@
+
+
+.lastProjectSubTitle{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    transition: all ease .5s;
+    text-align: center;
+}
+
+.lastProjectTechnologies{
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 1.125rem;
+    line-height: 1.35;
+    font-family: Roboto, sans-serif;
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+    border: 2px solid #595959;
+    color: #595959;
+    position: relative;
+    transition: all ease .5s;
+
+}
+
+
+
+.lastProjecContainer:hover .lastProjectSubTitle,
+.lastProjecContainer:hover .lastProjectTechnologies {
+    color: #694DF8;
+    border-color: #694DF8;
+}
+@media (max-width: 1155px) {
+    .lastProjectSubTitle{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 900px) {
+    .lastProjectSubTitle{
+        font-size: 1rem;
+
+    }
+}

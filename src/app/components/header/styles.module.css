@@ -1,0 +1,23 @@
+.menu{
+    height: 110px;
+}
+.menu a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media(max-width: 767px){
+
+    .navbar{
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        transition: .5s;
+
+    }
+
+}
